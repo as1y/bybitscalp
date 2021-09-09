@@ -8,10 +8,11 @@ return [
         'email' => 'info@buran.team'
     ],
 
+
     'db' => [
-        'dsn' => 'mysql:host=127.0.0.1;dbname=dbpromocode;charset=utf8;port=3306',
-        'user' => 'userpromocode',
-        'pass' => 'RXb=z?-&bPBtj_6',
+        'dsn' => 'mysql:host=127.0.0.1;dbname=dbcashcall;charset=utf8;port=3306',
+        'user' => 'usercashcall',
+        'pass' => 'd{@2U68yS=]VY[i',
     ],
 
 
