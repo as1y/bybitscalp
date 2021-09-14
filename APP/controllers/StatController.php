@@ -60,7 +60,7 @@ class StatController extends AppController {
 
         $this->BALANCE['total'] = round($this->BALANCE['total'], 2);
 
-        $Balyesterday = 390;
+        $Balyesterday = 420.57;
 
         echo "ОТКРЫТИЕ ДНЯ:".$Balyesterday."<br>";
 
