@@ -60,7 +60,7 @@ class StatController extends AppController {
 
         $this->BALANCE['total'] = round($this->BALANCE['total'], 2);
 
-        $Balyesterday = 420.57;
+        $Balyesterday = 400;
 
         echo "ОТКРЫТИЕ ДНЯ:".$Balyesterday."<br>";
 
@@ -70,7 +70,6 @@ class StatController extends AppController {
         $deltatodat = changemet($Balyesterday, $this->BALANCE['total']);
 
         echo "<b>ПРОФИТ СЕГОДНЯ </b>".$deltatodat." %<br>";
-
 
         $DAYTABLE = $this->GetBalTable($this->BALANCE['total']);
 

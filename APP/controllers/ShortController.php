@@ -516,7 +516,7 @@ class ShortController extends AppController {
                 $DELTA = $this->GetDelta($TREK, $OrderBD, $pricenow); // Получение дельты на текущий ордер
                 show($DELTA);
 
-                if ($DELTA['nowdelta'] < $this->maxposition*(-1)*1.5){
+                if ($DELTA['nowdelta'] < $this->maxposition*(-1)*2){
 
                     echo "<font color='red'><b>Вышли в нижнюю границу ордеров!</b></font><br>";
                     $ARRTREK['border'] = 1;
