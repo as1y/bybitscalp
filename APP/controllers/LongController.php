@@ -939,6 +939,7 @@ class LongController extends AppController {
 
         $SCORING = SCORING($this->KLINES, $pricenow);
 
+        show($SCORING);
 
         if ($SCORING['VOL'] < $this->limitmoneta && $SCORING['VOLPREV'] < $this->limitmoneta){
 
